@@ -14,13 +14,17 @@ public class CarrinhoDeCompras {
         this.itemList.add(item);
     }
     public void removerItem(String nome){
-        List<Item> itensParaRemover = new ArrayList<>(); 
-        for(Item i : itemList){
-            if(i.getNome().equalsIgnoreCase(nome)){
-                itensParaRemover.add(i);
+        List<Item> itensParaRemover = new ArrayList<>();
+        if(!itemList.isEmpty()){
+            for(Item i : itemList){
+                if(i.getNome().equalsIgnoreCase(nome)){
+                    itensParaRemover.add(i);
+                }
             }
+            itemList.removeAll(itensParaRemover);
+        }else{
+            System.out.println("Lista Vazia");
         }
-        
     }
     public double calcularValorTotal(){
         double valorTotal = 0;
