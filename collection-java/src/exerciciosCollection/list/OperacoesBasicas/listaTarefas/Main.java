@@ -1,4 +1,4 @@
-package exerciciosCollection.list.OperacoesBasicas;
+package exerciciosCollection.list.OperacoesBasicas.listaTarefas;
 
 public class Main {
     public static void main(String[] args) {
