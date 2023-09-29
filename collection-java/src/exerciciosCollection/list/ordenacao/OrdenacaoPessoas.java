@@ -1,7 +1,7 @@
 package exerciciosCollection.list.ordenacao;
 
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class OrdenacaoPessoas {
@@ -19,7 +19,7 @@ public class OrdenacaoPessoas {
     public List<Pessoa> ordernarPorIdade(){
         List <Pessoa> pessoasPorIdade = new ArrayList<>(pessoaList);
         if(!pessoaList.isEmpty()){
-            Collection.sort(pessoasPorIdade);
+            Collections.sort(pessoasPorIdade);
             return pessoasPorIdade;
         }else{
             throw new RuntimeException("A lista está vazia");
