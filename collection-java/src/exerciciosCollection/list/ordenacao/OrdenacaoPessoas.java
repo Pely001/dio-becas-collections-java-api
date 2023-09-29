@@ -1,4 +1,4 @@
-package exerciciosCollection.list.OperacoesBasicas.ordenacao;
+package exerciciosCollection.list.ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collection;

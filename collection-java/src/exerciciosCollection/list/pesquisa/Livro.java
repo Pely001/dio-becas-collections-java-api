@@ -1,4 +1,4 @@
-package exerciciosCollection.list.OperacoesBasicas.pesquisa;
+package exerciciosCollection.list.pesquisa;
 
 public class Livro {
     // Atributos

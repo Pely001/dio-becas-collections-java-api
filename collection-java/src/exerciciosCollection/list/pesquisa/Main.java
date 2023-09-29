@@ -1,4 +1,4 @@
-package exerciciosCollection.list.OperacoesBasicas.pesquisa;
+package exerciciosCollection.list.pesquisa;
 
 public class Main {
     public static void main(String[] args) {
