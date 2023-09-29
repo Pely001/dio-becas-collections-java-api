@@ -1,4 +1,4 @@
-package exerciciosCollection.list.OperacoesBasicas.somaNumeros;
+package exerciciosCollection.list.somaNumeros;
 
 public class Main {
     public static void main(String[] args) {

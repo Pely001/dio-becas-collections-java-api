@@ -1,4 +1,4 @@
-package exerciciosCollection.list.OperacoesBasicas.somaNumeros;
+package exerciciosCollection.list.somaNumeros;
 
 import java.util.ArrayList;
 import java.util.List;
