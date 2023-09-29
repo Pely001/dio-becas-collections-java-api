@@ -1,4 +1,4 @@
-package exerciciosCollection.list.carrinhoCompras;
+package exerciciosCollection.list.OperacoesBascias.carrinhoCompras;
 
 public class Main {
     public static void main(String[] args) {

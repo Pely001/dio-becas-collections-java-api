@@ -1,4 +1,4 @@
-package exerciciosCollection.list.listaTarefas;
+package exerciciosCollection.list.OperacoesBascias.listaTarefas;
 
 import java.util.ArrayList;
 import java.util.List;
