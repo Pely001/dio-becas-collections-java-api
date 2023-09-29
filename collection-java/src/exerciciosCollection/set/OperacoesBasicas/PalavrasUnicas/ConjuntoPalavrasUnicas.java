@@ -42,4 +42,35 @@ public class ConjuntoPalavrasUnicas {
             throw new RuntimeException("Conjunto está vazio");
         }
     }
+
+    @Override
+    public String toString() {
+        return "ConjuntoPalavrasUnicas [palavrasSet=" + palavrasSet + "]";
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((palavrasSet == null) ? 0 : palavrasSet.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        ConjuntoPalavrasUnicas other = (ConjuntoPalavrasUnicas) obj;
+        if (palavrasSet == null) {
+            if (other.palavrasSet != null)
+                return false;
+        } else if (!palavrasSet.equals(other.palavrasSet))
+            return false;
+        return true;
+    }
+    
 }
